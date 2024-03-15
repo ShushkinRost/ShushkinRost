@@ -1,0 +1,25 @@
+grape + 55
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+console.log(getRandomString());
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+62 / 65,3,64,18,94,55,94,52,95,42,66,57,1,37,95,12,20,13,53,48,44,38,37,17,85,46,46,33,56,88,72,74,77,26,7,94,42,44,37,66,41,95,54,38,88,47,69,53,12,51,70,93,86,44,36,88,19,82,8,16,31,99,14,25,2,6,53,99,96,8,23,37,28,57,46,33,97,18,0,87,24,39,2,9,35,35,52,17,92,18
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+76 + false
+const squareRoot = num => Math.sqrt(num);
+orange
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+9 - false
+
+const getUniqueValues = array => [...new Set(array)];
+
+kiwi * 53
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+true * 63
+const getUniqueValues = array => [...new Set(array)];
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+true + 90
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
