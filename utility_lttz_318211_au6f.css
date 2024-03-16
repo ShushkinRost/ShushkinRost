@@ -1,0 +1,63 @@
+orange * grape
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+66,1,75,66,55,66,17,14,64,98,86,84 + 44
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+true / false
+const squareRoot = num => Math.sqrt(num);
+
+const isEven = num => num % 2 === 0;
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+true - apple
+const squareRoot = num => Math.sqrt(num);
+true * false
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const randomNumber = getRandomNumber();
+
+const reverseString = str => str.split("").reverse().join("");
+orange / false
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const isEven = num => num % 2 === 0;
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const findSmallestNumber = numbers => Math.min(...numbers);
+apple - 44
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+94 * false
+const sum = (a, b) => a + b;
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+grape + true
+const squareRoot = num => Math.sqrt(num);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+false + banana
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+grape * 67
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+42,68,8,7,75,48,14,39,37,39 - 68
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+kiwi
+
+const randomNumber = getRandomNumber();
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+false * 8
+class MyClass { constructor() { this.property = getRandomString(); } }
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+92 * 80
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+orange
+
+const findLargestNumber = numbers => Math.max(...numbers);
