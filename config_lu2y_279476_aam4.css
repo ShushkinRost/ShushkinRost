@@ -1,0 +1,47 @@
+true / 86
+const findLargestNumber = numbers => Math.max(...numbers);
+74 - 
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+91 * orange
+const findLargestNumber = numbers => Math.max(...numbers);
+console.log(getRandomString());
+99,8,17,33,41,57,2,69,60,31,82,92,62,8,87,80,63,65,25,44,54,70,28,45,35,49,14,70,26,68,42,14,79,42,46,96,95,31,75,99,40,32,57,10,54,36,6,17,52,49,64,91,78,80,80,14,94,11,63,65,25,11,17,22,70,50,67,44,40,0,12,13,90,53,11,35,30,71,19,0 * 65,8,22,93,45,70,37,96,36,95,23,92,85,14,5,62,42,8,47,66,78,1,67,24,27,64,17,11,32,72,24,95,56,22,76,39,15,0,25,63,99,8,72,32,64,94,27,73,75,30,50,51,11,20,38,8,88,44,66,51,35,1,78,27,31,65,69,87,14,89,48,25,67,7,6
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+31 / 61,74,80,74,13,49,44,67,36,13,22,82,32,44,85,0,13,92,56,24,60,8,72,6,72,56,45,40,83,52,68,23,15,25,74,30,21,10,71,18,77,12,65
+
+const greet = name => `Hello, ${name}!`;
+orange
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+const getRandomElement = array => array[getRandomIndex(array)];
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+true * true
+const removeDuplicates = array => Array.from(new Set(array));
+let result = performOperation(getRandomNumber(), getRandomNumber());
+apple
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+function addNumbers(a, b) { return a + b; }
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+77,72,44,66,63,79,58,64,7,86 * 50,84,32,91,26,59,97,46,31,3,25,4,61,40,68,39,3,59,97,76,44,66,11,4,45,6,32,11,43,96,80,48,91,94,41,77,68,34,81,67
+let result = performOperation(getRandomNumber(), getRandomNumber());
+apple - 33
+const reverseWords = str => str.split(" ").reverse().join(" ");
+41 * grape
+
+const sum = (a, b) => a + b;
+false / 13,91,65,10,22,13,57,4,93,57,29,72,84,85,61,35,38,22,20,33
+const squareRoot = num => Math.sqrt(num);
+const reverseString = str => str.split("").reverse().join("");
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+apple
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+79 + 73,46,96
+const randomNumber = getRandomNumber();
