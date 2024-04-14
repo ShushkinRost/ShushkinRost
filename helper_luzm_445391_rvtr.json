@@ -1,0 +1,32 @@
+kiwi
+
+const randomNumber = getRandomNumber();
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+kiwi
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+grape
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const getUniqueValues = array => [...new Set(array)];
+const formatDate = date => new Date(date).toLocaleDateString();
+54,5,72,65,26,77,3,46,77,42,15,26,33,41,19,75,23,25,90,53,55,6,82,73 - orange
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+false * 2
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const getRandomSubset = (array, size) => array.slice(0, size);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const getUniqueValues = array => [...new Set(array)];
+91,49,14,71,39,53,40,38,86,29,90,79,39,52,62,26,34,68,58,76,64,93,18,51,96 / true
+console.log(getRandomString());
+banana
+
+const squareRoot = num => Math.sqrt(num);
+orange
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
